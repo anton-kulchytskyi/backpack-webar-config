@@ -4,11 +4,11 @@ import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Environment } from '@react-three/drei';
 import './App.css';
 // import { Button, Buttons } from './components/Button/Button';
-import VRlogo from './components/VRlogo/VRlogo';
+import VRlogo from '../src/components/VRlogo/VRlogo';
 
-import Backpack from './components/Backpack/Backpack';
-import Button from './components/Button/Button';
-import AllButtons from './components/AllButtons/AllButtons';
+import Backpack from '../src/components/Backpack/Backpack';
+import Button from '../src/components/Button/Button';
+import AllButtons from '../src/components/AllButtons/AllButtons';
 
 const App = () => {
   const [selectedMaterial, setSelectedMaterial] = useState(0);

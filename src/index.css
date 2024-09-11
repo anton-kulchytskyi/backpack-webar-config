@@ -77,11 +77,16 @@ button:focus-visible {
 }
 
 canvas {
-  max-width: 800px;
+  width: 800px;
   height: 450px;
 }
 
 .canvas-container {
   height: 100%;
-  /* background-color: #a2a2a2; */
+}
+@media (width <= 400px) {
+  canvas {
+    width: 320px;
+    height: 450px;
+  }
 }

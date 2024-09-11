@@ -1,4 +1,4 @@
-#root {
+/* #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
@@ -39,9 +39,50 @@
 
 .read-the-docs {
   color: #888;
+} */
+
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
 }
 
 .buttons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
+}
+
+h2 {
+  /* color: #1A1A1A;
+font-family: Inter; */
+  font-size: 0.875rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+  text-align: left;
+}
+
+.buttons-container {
+  width: 30%;
+}
+
+.color-button {
+  display: flex;
+  /* justify-content: space-between; */
+}
+
+.color-button ~ button {
+  margin: 2rem;
+}
+
+@media (width <= 400px) {
+  .buttons {
+    flex-direction: column;
+  }
+
+  .buttons-container {
+    width: 100%;
+  }
 }

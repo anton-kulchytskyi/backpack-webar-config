@@ -3,12 +3,9 @@ import { useState, Suspense } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls, Environment } from '@react-three/drei';
 import './App.css';
-// import { Button, Buttons } from './components/Button/Button';
-import VRlogo from '../src/components/VRlogo/VRlogo';
-
-import Backpack from '../src/components/Backpack/Backpack';
-import Button from '../src/components/Button/Button';
-import AllButtons from '../src/components/AllButtons/AllButtons';
+import Backpack from './Components/Backpack/Backpack';
+import VRlogo from './Components/VRlogo/VRlogo';
+import { Button, Buttons } from './Components/Button/Button';
 
 const App = () => {
   const [selectedMaterial, setSelectedMaterial] = useState(0);
@@ -49,7 +46,7 @@ const App = () => {
           />
           <Environment preset="apartment" />
         </Canvas>
-        <AllButtons
+        <Buttons
           setSelectedMaterial={setSelectedMaterial}
           setselectedBodyColor={setselectedBodyColor}
           setselectedMetallColor={setselectedMetallColor}

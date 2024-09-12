@@ -19,7 +19,6 @@ const App = () => {
   const [isQRcodeVisible, setIsQRcodeVisible] = useState(false);
 
   const isSmallDevice = useMediaQuery('only screen and (max-width : 400px)');
-  console.log(isSmallDevice);
 
   return (
     <>

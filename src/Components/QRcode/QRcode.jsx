@@ -15,7 +15,7 @@ const QRcode = ({ isQRcodeVisible, setIsQRcodeVisible }) => {
       <hr />
       <img
         className="qrcode"
-        src="../../src/assets/QRcode.png"
+        src="/QRcode.png"
         alt="qr code"
       />
     </div>

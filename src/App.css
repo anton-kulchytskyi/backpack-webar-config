@@ -86,3 +86,21 @@ font-family: Inter; */
     width: 100%;
   }
 }
+
+.qrcode-wrapper {
+  width: 300px;
+  height: 400px;
+  padding: 2rem;
+  border-radius: 30px;
+  border: 1px solid #4169e1;
+  color: #4169e1;
+  background-color: #fff;
+}
+
+.close {
+  cursor: pointer;
+}
+
+.qrcode {
+  width: 200px;
+}

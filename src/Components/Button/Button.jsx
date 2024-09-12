@@ -24,7 +24,8 @@ export const Button = ({
       }}
       onClick={onClick}
     >
-      {icon} {text}
+      {icon}
+      {text}
     </button>
   );
 };

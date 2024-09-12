@@ -54,9 +54,11 @@ button {
   /* background-color: #1a1a1a; */
   cursor: pointer;
   transition: border-color 0.25s;
+  display: inline-flex;
 }
 button:hover {
-  border-color: #646cff;
+  border-color: #4169e1;
+  color: #4169e1;
 }
 button:focus,
 button:focus-visible {
@@ -78,11 +80,14 @@ button:focus-visible {
 
 canvas {
   width: 800px;
-  height: 450px;
+  height: 400px;
 }
 
 .canvas-container {
   height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 @media (width <= 400px) {
   canvas {
